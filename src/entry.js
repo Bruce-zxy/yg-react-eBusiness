@@ -10,7 +10,7 @@ class App extends React.Component{
             <div>
                 <h5 className="title">hello, yeoman app!</h5>
                 <div>React Router: </div>
-                <div><a href="#/list">list page</a></div>
+                <div><a href="#/list">这是一个列表页</a></div>
                 <div><a href="#/detail">detail page</a></div>
             </div>
         );
@@ -22,7 +22,7 @@ class List extends React.Component {
         return (
             <div>
                 <h5 className="title">hello, yeoman app!</h5>
-                <div><a href="#/">返回首页</a></div>
+                <div><a href="#/">返回首页圣达菲卡金卡额外佛啊额挖坟费金额我iaewfoiaewfj哦iwjfewofj</a></div>
                 <div>这是列表页</div>
             </div>
         );
