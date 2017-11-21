@@ -1,2 +1,1 @@
-# yg-react-eBusiness
-电子商城项目测试
+基于React+Webpack+ES6的前端项目模版目录
