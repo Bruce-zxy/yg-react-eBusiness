@@ -11,11 +11,11 @@ module.exports = {
     devtool: 'cheap-eval-source-map',
 
     entry: {
-        main: SRC_DIR + '/entry.js', //唯一入口文件
+        app: SRC_DIR + '/entry.js', //唯一入口文件
     },
     output: {
         path: BUILD_DIR, //打包后的文件存放的地方
-        filename: 'bundle.js', //打包后输出文件的文件名
+        filename: './bundle.js', //打包后输出文件的文件名
     },
 
     module: {
@@ -42,7 +42,7 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin('main.css'),
         new HtmlWebpackPlugin({
-            template: './dist/index.html'
+            template: './dist/index.html',
         }),
         new webpack.HotModuleReplacementPlugin()
     ]

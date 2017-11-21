@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 
 import { Router, Route, hashHistory } from 'react-router';
 
 
-class App extends React.Component{
+class App extends Component{
     render() {
         return (
             <div>
@@ -17,7 +17,7 @@ class App extends React.Component{
     }
 };
 
-class List extends React.Component {
+class List extends Component {
     render() {
         return (
             <div>
@@ -29,7 +29,7 @@ class List extends React.Component {
     }
 };
 
-class Detail extends React.Component {
+class Detail extends Component {
     render() {
         return (
             <div>
@@ -42,9 +42,9 @@ class Detail extends React.Component {
 };
 
 //最终渲染
-ReactDom.render((
+ReactDOM.render((
     <Router history={hashHistory}>
-        <Route path='/' component={App}></Route>
+        <Route path='/' component={App} />
         <Route path='/list' component={List} />
         <Route path='/detail' component={Detail} />
     </Router>
