@@ -1,7 +1,7 @@
 {
   "name": "yg-react-eBusiness",
   "version": "1.0.0",
-  "description": "Porject of Shanghai Yigang Network Com.ltd",
+  "description": "Porject of Shanghai Yigang Network Co.ltd",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,13 +12,12 @@
     "type": "git",
     "url": "git@github.com:Bruce-zxy/yg-react-eBusiness.git"
   },
-  "author": "HadesZ",
+  "author": "luckykun",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "babel-core": "^5.5.8",
     "babel-loader": "^5.1.4",
-    "babel-plugin-import": "^1.6.2",
     "css-loader": "^0.14.5",
     "extract-text-webpack-plugin": "~1.0.1",
     "jsx-loader": "^0.13.2",
@@ -33,7 +32,6 @@
     "webpack-dev-server": "^1.15.0"
   },
   "dependencies": {
-    "antd": "^2.13.10",
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   }
